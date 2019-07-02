@@ -8,7 +8,7 @@
 //자바네트워크에서의 소켓은 2종류 
 //  1) 전화를 받는 용도의 소켓: 서버소켓이라함 
 //  2) 대화용 소켓 : 종이컵과 같음 
-package net;
+package echo;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
