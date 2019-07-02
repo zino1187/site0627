@@ -85,6 +85,9 @@ public class GUIServer extends JFrame{
 				//대화 시작!!
 				String msg=buffr.readLine();//듣기!!
 				
+				//실시간 모니터링...
+				area.append(msg+"\n");
+				
 				//보내기
 				buffw.write(msg+"\n");
 				buffw.flush();//버퍼 비우기

@@ -120,6 +120,9 @@ public class ChatClient extends JFrame{
 			buffw.flush();//버퍼처리된 출력스트림 계열에서 이 메서드를 호출하면
 			//스트림에 현재 쌓여있는 데이터를 모두 방출!!
 			listen();
+			
+			//입력한 데이터 초기화 
+			txt.setText("");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
